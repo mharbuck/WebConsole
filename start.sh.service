@@ -1,0 +1,14 @@
+[Unit]
+Description=Start Network and Time Sync and TTYD Service
+After=default.target
+
+[Service]
+ExecStart=/bin/ttyd -W -p 9000 sudo -u mharbuck  bash -c "cd /home/mharbuck; exec bash"
+# WorkingDirectory=/home/myuser/my_app/
+Restart=on-failure
+#wqStandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
+
