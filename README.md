@@ -8,4 +8,6 @@ The web site can be confirgures as a single macbnine, stand alone, or as a page 
 
 have fun.  you will have to enter your own values for the sources, et. cet.  in the html for  you own values. 
 
+I have included an example ssystemd service file which I place in /etc/systemd/system/ ... 
 
+Install and configure ttyd to your needs and edit away...  
