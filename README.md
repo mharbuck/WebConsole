@@ -1,7 +1,7 @@
 # WebConsole
 Webconsole using ttyd as a service on each server to an html framed website.
 
-This simple ideas used the ttyd binary on linux to send the console (  or any other sh/bash program you wish ) 
+This simple idea used the ttyd binary on linux to send the console (  or any other sh/bash program you wish ) 
 to a web site.  
 
 The web site can be confirgures as a single macbnine, stand alone, or as a page with multiple uses. 
