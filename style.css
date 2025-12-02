@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.grid-container {
+    display: grid;
+    /* Defines 4 columns, each taking up an equal fraction of the available space */
+    grid-template-columns: repeat(4, 1fr);
+    /* Defines 2 rows, each taking up an equal fraction of the available space */
+    grid-template-rows: repeat(2, 1fr);
+    /* Creates space between the tiles */
+    gap: 10px;
+    /* Ensures the grid takes up the full height of the viewport */
+    height: 100vh;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tile {
+    /* Basic styling for the tile container */
+    border: 1px solid #ccc;
+    background-color: #fff;
+    overflow: hidden; /* Hides any overflowing content */
+    display: flex;
+    flex-direction: column;
+}
+
+.tile iframe {
+    /* Makes the iframe fill the entire tile container */
+    width: 100%;
+    height: 100%;
+    border: none; /* Removes default iframe border */
+}
+
