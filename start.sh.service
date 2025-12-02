@@ -3,10 +3,10 @@ Description=Start Network and Time Sync and TTYD Service
 After=default.target
 
 [Service]
-ExecStart=/bin/ttyd -W -p 9000 sudo -u mharbuck  bash -c "cd /home/mharbuck; exec bash"
+ExecStart=/bin/ttyd -W -p 9000 sudo -u user  bash -c "cd /home/user; exec bash"
 # WorkingDirectory=/home/myuser/my_app/
 Restart=on-failure
-#wqStandardOutput=journal
+#StandardOutput=journal
 StandardError=journal
 
 [Install]
