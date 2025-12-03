@@ -6,7 +6,7 @@ to a web site.
 
 index.html and style.css belong in the same served directory.
 
-The web site can be confirgures as a single machine, stand alone, or as a page with multiple uses. 
+The web site can be confirgured as a single machine, stand alone, or as a page with multiple uses. 
 
 have fun.  you will have to enter your own values for the sources, et. cet.  in the html for  you own values. 
 
